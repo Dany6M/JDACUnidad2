@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actos>
+
+
+
+
+	
+	
+	<acto>
+		<id>act00003</id>
+		<fecha>02/03/2017</fecha>
+		<codigo>8</codigo>
+		<lugar>Col. San Pulgas</lugar>
+		<descripcion>Robo armado</descripcion>
+	</acto>
+
+<acto>
+<id>act00001</id>
+<fecha>20/10/2017</fecha>
+<codigo>1235</codigo>
+<lugar>Centro Dolores Hgo. Gto</lugar>
+<descripcion>Aparente Asalto </descripcion>
+</acto>
+<acto>
+<id>act00002</id>
+<fecha>02/12/2016</fecha>
+<codigo>777</codigo>
+<lugar>Celaya Gto</lugar>
+<descripcion>Atraco en Tren</descripcion>
+</acto>
+<acto>
+<id>act00001</id>
+<fecha>28/07/2017</fecha>
+<codigo>432</codigo>
+<lugar>Col. San Pulgas DH Gto</lugar>
+<descripcion>Robo Armado </descripcion>
+</acto>
+<acto>
+<id>act00004</id>
+<fecha>20/03/2015</fecha>
+<codigo>123</codigo>
+<lugar>Guadalajara Jal.</lugar>
+<descripcion>Balzera entre carteles de droga</descripcion>
+</acto>
+</actos>

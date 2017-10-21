@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locations>
+	<location>
+		<id>loc0001</id>
+		<parentId>IDloc02</parentId>
+		<name>Ruta</name>
+		<code>125</code>
+	</location>
+	<location>
+		<id>loc00001</id>
+		<parentId>123456</parentId>
+		<type>123456</type>
+		<name>123456</name>
+		<code>123456</code>
+	</location>
+	<location>
+		<id>loc00001</id>
+		<parentId>123456</parentId>
+		<type>123456</type>
+		<name>123456</name>
+		<code>123456</code>
+	</location>
+	<location>
+		<id>loc00001</id>
+		<parentId>123456</parentId>
+		<type>123456</type>
+		<name>123456</name>
+		<code>123456</code>
+	</location>
+</locations>
