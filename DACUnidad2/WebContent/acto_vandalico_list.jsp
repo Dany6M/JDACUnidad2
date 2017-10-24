@@ -39,6 +39,8 @@
 			</tr>
 		</c:forEach>
 	</table>
-
+	<ul>
+		<li><a href="index.jsp">Back To Home Page</a></li>
+	</ul>
 </body>
 </html>

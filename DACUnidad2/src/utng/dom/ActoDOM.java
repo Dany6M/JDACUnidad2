@@ -125,7 +125,9 @@ public class ActoDOM {
 			Element a= (Element)nodeList.item(i);
 			Acto acto = new Acto();
 			
-			acto.setId(a.getElementsByTagName("id").item(0).getTextContent());
+			acto.setId(a.getElementsByTagName("id")
+					.item(0).getTextContent());
+			
 			acto.setFecha(a.getElementsByTagName("fecha").item(0).getTextContent());
 			acto.setCodigo(Integer.parseInt(a.getElementsByTagName("codigo").item(0).getTextContent()));
 			acto.setLugar(a.getElementsByTagName("lugar").item(0).getTextContent());
@@ -135,5 +137,4 @@ public class ActoDOM {
 		return actos;
 	}
 	
-
 }

@@ -42,6 +42,8 @@ public class LocationController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			if(request.getParameter("btn_save")!=null) {
 				location.setParentId(request.getParameter("parentId"));
+				location.setType(request.getParameter("type"));
+				location.setName(request.getParameter("name"));
 				
 				
 				try {
@@ -50,19 +52,19 @@ public class LocationController extends HttpServlet {
 					location.setCode(10);
 				}
 				
-				location.setType(request.getParameter("type"));
-				location.setName(request.getParameter("name"));
 				
 				if(location.getId()=="") {
-					String newId = "loc" +String.format("%05d", 1);
+					String newId = "loc" +String.format("%04d", 1);
 					location.setId(newId);
+					
 					if(locations.size()>0) {
 						ids.clear();
 						for (Location l : locations) {
 							ids.add(l.getId());
 						}
-						for (int i = 0; i < ids.size(); i++) {
-							newId = "loc" + String.format("%05d", i + 1);
+						for (int i = 0; i <=ids.size(); i++) {
+							newId = "loc" + String.format("%04d",i+1);
+							
 							if (!ids.contains(newId)) {
 								location.setId(newId);
 								break;

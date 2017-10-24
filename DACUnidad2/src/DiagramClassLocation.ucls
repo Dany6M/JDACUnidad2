@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="utng.model.Acto" project="DACUnidad2" file="/DACUnidad2/src/utng/model/Acto.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="137" y="295"/>    
+  <class id="1" language="java" name="utng.dom.LocationDOM" project="DACUnidad2" 
+    file="/DACUnidad2/src/utng/dom/LocationDOM.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="554" y="20"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="utng.dom.ActoDOM" project="DACUnidad2" 
-    file="/DACUnidad2/src/utng/dom/ActoDOM.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="604" y="139"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="utng.dom.DOMHelper" project="DACUnidad2" 
+  <class id="2" language="java" name="utng.dom.DOMHelper" project="DACUnidad2" 
     file="/DACUnidad2/src/utng/dom/DOMHelper.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="867" y="104"/>    
+    <position height="-1" width="-1" x="813" y="-14"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="utng.controller.ActoVandalicoController" project="DACUnidad2" 
-    file="/DACUnidad2/src/utng/controller/ActoVandalicoController.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="606" y="417"/>    
+  <class id="3" language="java" name="utng.controller.LocationController" project="DACUnidad2" 
+    file="/DACUnidad2/src/utng/controller/LocationController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="556" y="247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="utng.model.Location" project="DACUnidad2" 
+    file="/DACUnidad2/src/utng/model/Location.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="168" y="203"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,41 +38,40 @@
     </display>  
   </class>  
   <association id="5">    
-    <bendpoint x="436" y="353"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="6" name="acto">        
-        <position height="0" width="0" x="-3" y="-3"/>      
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="6" name="locationDOM">        
+        <position height="0" width="0" x="-286" y="-306"/>      
       </attribute>      
       <multiplicity id="7" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-3" y="-3"/>      
+        <position height="0" width="0" x="-286" y="-306"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="8">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="actoDOM">        
-        <position height="0" width="0" x="182" y="24"/>      
+    <bendpoint x="346" y="47"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="location">        
+        <position height="0" width="0" x="54" y="109"/>      
       </attribute>      
       <multiplicity id="10" minimum="0" maximum="1">        
-        <position height="0" width="0" x="182" y="24"/>      
+        <position height="0" width="0" x="54" y="109"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="11">    
-    <bendpoint x="408" y="236"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="actos">        
-        <position height="0" width="0" x="-3" y="-3"/>      
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="locations">        
+        <position height="0" width="0" x="54" y="109"/>      
       </attribute>      
       <multiplicity id="13" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-3" y="-3"/>      
+        <position height="0" width="0" x="54" y="109"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

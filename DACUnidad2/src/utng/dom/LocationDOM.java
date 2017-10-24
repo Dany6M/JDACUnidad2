@@ -10,7 +10,7 @@ import org.w3c.dom.NodeList;
 import utng.model.Location;
 
 public class LocationDOM {
-	private String pathFile="C:\\Users\\Daniel Aguilar\\Documents\\workSpace2017\\DACUnidad2\\src\\data\\locations.XML";
+	private String pathFile="C:\\Users\\Daniel Aguilar\\Documents\\workSpace2017\\DACUnidad2\\src\\data\\locations.xml";
 	public void add(Location data) {
 		try {
 			
@@ -139,10 +139,7 @@ public class LocationDOM {
 			location.setCode(Integer.parseInt(l.getElementsByTagName("code").item(0).getTextContent()));
 			locations.add(location);
 		}
-		
-		
 		return locations;
 	}
-	
 	
 }

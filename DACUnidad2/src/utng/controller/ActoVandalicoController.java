@@ -3,6 +3,7 @@ package utng.controller;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -40,6 +41,7 @@ public class ActoVandalicoController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		if (request.getParameter("btn_save") != null) {
 			acto.setFecha(request.getParameter("fecha"));
+			
 			try {
 				acto.setCodigo(Integer.parseInt(request.getParameter("codigo")));
 			} catch (NumberFormatException e) {
@@ -49,28 +51,25 @@ public class ActoVandalicoController extends HttpServlet {
 			acto.setLugar(request.getParameter("lugar"));
 			acto.setDescripcion(request.getParameter("descripcion"));
 			
-			if (acto.getId() == "") {
-				String newId = "act" + String.format("%05d", 1);
+			if (acto.getId()=="") {
+				String newId = "act" + String.format("%04d", 1);
 				acto.setId(newId);
-				if (actos.size() > 0) {
+				if (actos.size()>0) {
 					ids.clear();
 					for (Acto a : actos) {
 						ids.add(a.getId());
 					}
-					for (int i = 0; i < ids.size(); i++) {
-						newId = "act" + String.format("%05d", i + 1);
+					for (int i = 0; i <= ids.size(); i++) {
+						newId = "act" + String.format("%04d",i+1);
 						if (!ids.contains(newId)) {
 							acto.setId(newId);
 							break;
 						}
-
 					}
 				}
 				
 				actoDOM.add(acto);
-				
 			} else {
-				
 				actoDOM.update(acto);
 			}
 			

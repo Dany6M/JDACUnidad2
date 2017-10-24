@@ -9,8 +9,8 @@
 <body>
 	<aside>
 		<ul>
-			<li><a href="acto_vandalico_list.jsp">Actos</a></li>
-			<li><a href="location_list.jsp">Locations</a></li>
+			<li><a href="ActoVandalicoController">Actos</a></li>
+			<li><a href="LocationController">Locations</a></li>
 		</ul>
 	</aside>
 </body>

@@ -1,9 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <locations>
+
+	<location>
+		<id>loc0002</id>
+		<parentId>82</parentId>
+		<type>Remota</type>
+		<name>LRemote</name>
+		<code>82</code>
+	</location>
+	<location>
+		<id>loc0003</id>
+		<parentId>67</parentId>
+		<type>RocaLocation</type>
+		<name>RL</name>
+		<code>67</code>
+	</location>
+	<location>
+		<id>loc0004</id>
+		<parentId>1</parentId>
+		<type>1</type>
+		<name>1</name>
+		<code>1</code>
+	</location>
+
+
 	<location>
 		<id>loc0001</id>
-		<parentId>IDloc02</parentId>
-		<name>Ruta</name>
-		<code>125</code>
+		<parentId>1</parentId>
+		<type>1</type>
+		<name>1</name>
+		<code>1</code>
+	</location>
+	<location>
+		<id>loc0005</id>
+		<parentId>778</parentId>
+		<type>Local Host </type>
+		<name>Puerto</name>
+		<code>8078</code>
 	</location>
 </locations>

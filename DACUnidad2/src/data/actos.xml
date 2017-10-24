@@ -4,49 +4,77 @@
 
 
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<acto>
-		<id>act00003</id>
-		<fecha>02/03/2017</fecha>
-		<codigo>8</codigo>
-		<lugar>Col. San Pulgas</lugar>
-		<descripcion>Robo armado</descripcion>
+		<id>act0002</id>
+		<fecha>20/10/2017</fecha>
+		<codigo>33</codigo>
+		<lugar>Celaya</lugar>
+		<descripcion>Robo Tren</descripcion>
 	</acto>
 
+	<acto>
+		<id>act0003</id>
+		<fecha>20/10/2017</fecha>
+		<codigo>12</codigo>
+		<lugar>Comonfort</lugar>
+		<descripcion>Robo Armado</descripcion>
+	</acto>
+	<acto>
+		<id>act0004</id>
+		<fecha>12/09/2017</fecha>
+		<codigo>88</codigo>
+		<lugar>Coroneo</lugar>
+		<descripcion>Venta Armas</descripcion>
+	</acto>
+
+
+	<acto>
+		<id>act0005</id>
+		<fecha>29/09/2017</fecha>
+		<codigo>9</codigo>
+		<lugar>SMA</lugar>
+		<descripcion>Robo Arma Bca</descripcion>
+	</acto>
+	<acto>
+		<id>act0001</id>
+		<fecha>567</fecha>
+		<codigo>123</codigo>
+		<lugar>fg</lugar>
+		<descripcion>gh</descripcion>
+	</acto>
 <acto>
-<id>act00001</id>
-<fecha>20/10/2017</fecha>
-<codigo>1235</codigo>
-<lugar>Centro Dolores Hgo. Gto</lugar>
-<descripcion>Aparente Asalto </descripcion>
+<id>act0006</id>
+<fecha>21/10/2017</fecha>
+<codigo>2345</codigo>
+<lugar>Dolores Hidalgo </lugar>
+<descripcion>Grafitty</descripcion>
 </acto>
 <acto>
-<id>act00002</id>
-<fecha>02/12/2016</fecha>
-<codigo>777</codigo>
-<lugar>Celaya Gto</lugar>
-<descripcion>Atraco en Tren</descripcion>
-</acto>
-<acto>
-<id>act00001</id>
-<fecha>28/07/2017</fecha>
-<codigo>432</codigo>
-<lugar>Col. San Pulgas DH Gto</lugar>
-<descripcion>Robo Armado </descripcion>
-</acto>
-<acto>
-<id>act00004</id>
-<fecha>20/03/2015</fecha>
-<codigo>123</codigo>
-<lugar>Guadalajara Jal.</lugar>
-<descripcion>Balzera entre carteles de droga</descripcion>
-</acto>
-<acto>
-<id>act00001</id>
-<fecha>23/12/2016</fecha>
-<codigo>2340</codigo>
-<lugar>Dolores Hidalgo</lugar>
-<descripcion>Violacion</descripcion>
+<id>act0007</id>
+<fecha>22/10/2017</fecha>
+<codigo>76</codigo>
+<lugar>Dolores H</lugar>
+<descripcion>RR</descripcion>
 </acto>
 </actos>
